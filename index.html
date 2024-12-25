@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqra's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            background-color:  rgb(8, 51, 121);;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+    .firstsection{
+       display: flex;
+       justify-content: space-around;
+       margin: 23px 0;
+       margin-top: 20px;
+    }
+    .firstsection > div{
+        width: 30%;
+    }
+    .leftsection{
+        font-size: 3rem;
+    }
+   
+    
+    
+
+    
+   
+
+    
+    img{
+       float: right;
+       width:300px;
+       height:300px;
+       
+       margin-right: 30px;
+       margin-top:10px;
+      
+    }
+    .button-container {
+            margin-top: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        button:hover {
+            background-color: white;
+            color: rgb(8, 51, 121);
+        }
+    
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,400&display=swap" rel="stylesheet">
+    <div class="bg"></div>
+
+<div class="star-field">
+<div class="layer"></div>
+<div class="layer"></div>
+<div class="layer"></div>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Iqra's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact Me</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I'm Iqra 
+            <div>an aspiring</div> 
+            <div> software developer</div>
+            <div class="button-container">
+                <button onclick="window.location.href='https://docs.google.com/file/d/1BgS_98GyjErSz2qfYWmAQDVj58tOq_t8/edit?usp=docslist_api&filetype=msword'">View Resume</button> <!-- Replace 'resume.pdf' with your actual file path -->
+            </div>
+            
+            </div>
+            <div class="rightsection">
+                <img src="girl.png.png" alt="">
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
